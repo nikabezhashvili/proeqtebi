@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="c">
+        <div id="p">
+            <h1>Contact Us</h1>
+            <br>
+            <form>
+            <div id="name">
+                <div>
+                <label for="fn">First Name *</label><br><br>
+                <input type="text" id="fn" name="firstName" required>
+                </div>
+                
+                <div>
+                <label for="ln">Last Name *</label><br><br>
+                <input type="text" id="ln" name="lastName" required>
+                </div>
+            </div>
+            <br>
+            <div id="email">
+                <label for="em">Email Address *</label><br> <br>
+                <input type="email" id="em" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label>Query Type *</label><br><br>
+                <div id="q">
+                    <div class="qr">
+                        <input type="radio" id="g" name="q">
+                        <label for="g">General Enquiry</label>
+                    </div>
+                    <div class="qr">
+                        <input type="radio" id="s" name="q">
+                        <label for="s">Support Request</label>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div>
+                <label for="msg">Message *</label><br><br>
+                <textarea id="msg"rows="5"></textarea> <br><br>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="con" name="con">
+                <label for="con">I consent to being contacted by the team *</label><br><br>
+            </div>
+            <br>
+            <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
