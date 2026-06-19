@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9EEFF;
+    overflow: hidden;
+}
+
+#bg{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    object-fit: cover;
+    height: 35%;
+}
+
+#card{
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 600px;
+    margin: 120px 0;
+    padding: 40px 40px;
+    height: 530px;
+}
+
+#star{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+#star img{
+    height: 35px;
+    width: 35px;
+}
+
+#star h1{
+    font-size: 3rem;
+    font-family: Work Sans;
+}
+#minus{
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+    font-family: Work Sans;
+    justify-content: space-between;
+}
+
+#text p{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 520px;
+    line-height: 1.4;
+    font-family: Work Sans;
+    color: #A49BA6;
+}
+
+.bt{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    border-top: 1px solid #F7F6FC;
+    font-family: Work Sans;
+    font-weight: bold;
+}
+
+.bt img{
+    height: 30px;
+}
+
+
+@media (max-width: 376px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #card{
+        width: 340px;
+        margin-left: 200px ;
+        padding: 10px 20px;
+        border-radius: 10px;
+        height: 510px;
+        margin-top: 90px;
+        margin-left: 440px;
+    }
+    #star{
+    margin-bottom: 10px;
+    }
+    #star h1{
+        font-size: 2rem;
+    }
+    #star img{
+        width: 30px;
+        height: 30px;
+    }
+    #bg{
+    position: absolute;
+    width: 200%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    }
+    #text p {
+        width: 300px;
+        line-height: 1.25;
+        font-size: 0.95rem;
+    }
+
+    #minus span{    
+        width: 220px;
+    }
+    .bt p{
+        width: 210px;
+    }
+    .bt{
+        width: 300px;
+    }
+    #minus{
+        width: 300px;
+    }
+
+
+
+}

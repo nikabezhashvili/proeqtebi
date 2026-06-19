@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #FAFAFA;
+}
+
+/* header navigation */
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+header a{
+    text-decoration: none;
+    color: #BBBABF;
+    margin-left: 10px;
+    font-size: 1.05rem;
+}
+header nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+header button{
+    width: 175px;
+    height: 45px;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 22px;
+    color: white;
+    background: linear-gradient(to bottom left,#2ECF75,#28B6C8);
+}   
+
+/* main section 1 */
+
+#sec1{
+    display: flex;
+    height: 750px;
+}
+
+#imgs{
+    display: flex;
+}
+
+#img2{
+    position: relative;
+    bottom: 180px;
+    left: 20%;
+    height: 1050px;
+    width: 970px;
+}
+
+#img1{
+    width: 1450px;
+    height: 1000px;
+    position: relative;
+    bottom: 250px;
+    right: 29%;
+    z-index: -1;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+    left: 8%;
+    top: 20%;
+}
+
+#text h1{
+    width: 400px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#text p{
+    line-height: 1.55;
+    width: 380px;
+    font-size: 1.1rem;
+    color: #9F9EA3;
+}
+
+#text button{
+    width: 175px;
+    height: 45px;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 22px;
+    color: white;
+    background: linear-gradient(to bottom left,#2ECF75,#28B6C8);
+}
+
+
+/* main section 2 */
+
+#sec2{
+    background-color: #F4F5F7;
+    padding: 75px 125px;
+    height: 560px;
+}
+
+#sec2 h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#sec2 #p{
+    font-size: 1.4rem;
+    width: 700px;
+    color: #9F9EA3;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#sec2_div{
+    display: flex;
+    width: 1500px;
+    gap: 120px;
+}
+
+.span3{
+    font-size: 1.1rem;
+    width: 225px;
+    line-height: 1.40;
+    color: #9F9EA3;
+
+}
+
+.span4{
+    font-size: 1.1rem;
+    width: 250px;
+    line-height: 1.40;
+    color: #9F9EA3;
+
+}
+
+.span5{
+    font-size: 1.1rem;
+    width: 250px;
+    line-height: 1.40;
+    color: #9F9EA3;
+}
+
+#sec2_div img{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+#sec2_div #p1{
+    font-size: 26px;
+}
+
+#sec2_div div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* main section 3 */
+#sec3{
+    padding: 75px 125px;
+    height: 760px;
+}
+
+#sec3 h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+#sec3_d{
+    display: flex;
+    gap: 50px;
+}
+
+#sec3_d img{
+    width: 330px;
+    height: 225px;
+}
+
+#sec3_d div{
+    height: 460px;
+    width: 330px;
+    background-color: #FFFFFF;
+}
+
+.sec3_div_sp1{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #9F9EA3;
+}
+
+.sec3_div_sp3{
+    font-size: 1.5rem;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.sec3_div_sp2{
+    font-size: 1.15rem;
+    width: 250px;
+    margin-left: 20px;
+    color: #9F9EA3;
+
+}
+
+.sec3_div_sp4{
+    font-size: 1.15rem;
+    width: 250px;
+    margin-left: 20px;
+    color: #9F9EA3;
+
+}
+
+.sec3_div_sp5{
+    font-size: 1.15rem;
+    width: 250px;
+    margin-left: 20px;
+    color: #9F9EA3;
+
+}
+
+
+/* footer */
+footer{
+    background-color: #2D314E;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer_div_1{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer_div_1 div{
+    display: flex;
+    gap: 15px;
+}
+
+#footer_div_2 {
+    height: 150px;
+    width: 200px;
+}
+
+.footer_div_2 button{
+    background-color:#2D314E;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    text-align: start;
+}
+
+#footer_div_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 200px;
+    gap: 20px;
+}
+
+#footer_div_3 button{
+    width: 175px;
+    height: 45px;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 22px;
+    color: white;
+    background: linear-gradient(to bottom left,#2ECF75,#28B6C8);
+}
+
+#footer_div_3 p{
+    width: 250px;
+    color: #9F9EA3;
+}
