@@ -5,21 +5,25 @@
 }
 
 body{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: hsl(221, 100%, 96%);
 }
+
+
 #parent{
     background-color: white;
-    display: flex;
     border-radius: 20px;
     width: 600px;
+    height: 410px;
+    display: flex;
 }
+
 #d1{
     flex: 1;
-    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: white;
     padding: 30px;
     border-radius: 20px;
@@ -28,6 +32,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 #d1 h3{
     position: relative;
     bottom: 25px;
@@ -35,22 +40,27 @@ body{
 #score{
     width: 150px;
     height: 150px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
 }
 
 #score #sp1{
     font-size: 45px;
+    font-weight: bolder;
 }
 
 #score #sp2{
     font-size: 13px;
 }
 
+#d1 h3,p{
+    color: hsl(222, 100%, 88%);
+    text-align: center;
+}
 
 #d2{
     flex: 1;
@@ -66,7 +76,7 @@ body{
     justify-content: space-between;
     padding: 12px;
     border-radius: 10px;
-    background-color: hsl(0, 100%, 98%);  
+    background-color: hsl(0, 100%, 98%);
 }
 
 #sr{
@@ -105,32 +115,40 @@ body{
     background-color: hsl(234, 85%, 98%);
 }
 
-
-
-#d1 h3,p{
-    color: hsl(222, 100%, 88%);
-    text-align: center;
+#svi{
+    color: hsl(234, 85%, 45%);
 }
-
 #sr,#sm,#sve,#svi{
     position: relative;
-    right: 35px;
-}
+    right: 15%;
 
+}
 
 button{
     width: 100%;
-    margin-top: 12px;
+    height: 40px;
     border: none;
     border-radius: 25px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
     background-color: hsl(224, 30%, 27%);
-    height: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+button:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+}
+
+.rmvv{
+    margin: 12px;
+}
+
+.ravi{
+    color: hsl(224, 9%, 58%);
 }
 
 
-button:hover{
-    background:linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+#d1 p{
+    width: 200px;
 }
