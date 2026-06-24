@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+#parent{
+    display: grid;
+    grid-template-areas: 
+    'd1 d1 d2 d3'
+    'd4 d5 d5 d3';
+    place-content: center;
+    gap: 25px;
+}
+
+/* section 1 */
+
+#d1{
+    background-color: #733FC8;
+    color: white;
+    padding: 10px 25px;
+    grid-area: d1;
+    border-radius: 20px;
+    width: 715px;
+    font-family: Barlow Semi Condensed;
+}
+
+.ph{
+    border-radius: 50%;
+}
+
+#d1 div{
+    display: flex;
+    align-items: center;
+}
+#pr{
+    display: flex;
+    justify-content: space-between;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Barlow Semi Condensed;
+    width: 640px;
+}
+#text h2{
+    font-size: 1.6rem;
+    position: relative;
+    z-index: 1;
+    bottom: 10px;
+}
+
+.ph1{
+    position: relative;
+    z-index: 0;
+    top: 17px;
+    right: 17.2%;
+}
+#pr1{
+    display: flex;
+    gap: 20px;
+}
+#pr2{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+#av1{
+    border: 5px solid white;
+}
+
+#text p{
+    font-size: 1.1rem;
+    color: #F1D7FB;
+}
+
+#p1{
+    font-size: 1.2rem;
+}
+/* section 2 */
+
+#d2{
+    grid-area: d2;
+    background-color: #49556B;
+    color: white;
+    padding: 35px 35px;
+    border-radius: 10px;
+    width: 331px;
+    font-family: Barlow Semi Condensed;
+}
+#text1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#text1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+#p2{
+    font-size: 1.2rem;
+}
+
+#d2 h2{
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    margin-bottom: 18px;
+    margin-top: 25px;
+}
+
+#d2 p{
+    width: 255px;
+    line-height: 22px;
+    font-size: 1.05rem;
+    color: #A2A8B4;
+}
+
+
+
+/* section 3 */
+#d3{
+    grid-area: d3;
+    background-color: white;
+    padding: 30px 35px;
+    border-radius: 10px;
+    width: 375px;
+    font-family: Barlow Semi Condensed;
+}
+
+#text2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#text2 div{
+    display: flex;
+    flex-direction: column;
+}
+#p3{
+    font-size: 1.1rem;
+}
+
+#d3 h2{
+    font-weight: 600;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+#d3 p{
+    width: 245px;
+    line-height: 20px;
+    color: #7F8086;
+}
+
+
+/* section 4 */
+#d4{
+    grid-area: d4;
+    background-color: white;
+    padding: 20px 35px;
+    border-radius: 10px;
+    width: 421.5px;
+    font-family: Barlow Semi Condensed;
+}
+
+#text3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#text3 div{
+    display: flex;
+    flex-direction: column;
+}
+
+#d4 h2{
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#d4 p{
+    width: 250px;
+    color: #7F8086;
+}
+
+#p4{
+    font-size: 1.15rem;
+}
+
+
+
+/* section 5 */
+#d5{
+    grid-area: d5;
+    background-color: #191F2D;
+    color: white;
+    padding: 30px 35px;
+    border-radius: 10px;
+    width: 623.34px;
+    font-family: Barlow Semi Condensed;
+}
+
+#text4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#text4 div{
+    display: flex;
+    flex-direction: column;
+}
+
+#d5 h2{
+    font-weight: 600;
+    width: 565px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
