@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    overflow: hidden;
+}
+
+#par{
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+    font-family: Outfit;
+    box-shadow: 0px 25px 30px 20px #0C1729;
+}
+#photo img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+#text{
+    width: 350px;
+}
+
+#text1_1{
+    font-size: 1.6rem;
+    color: hsl(0, 0%, 100%);
+}
+
+#text1_2{
+    font-size: 1.3rem;
+    color: #5F7696;
+}
+
+#text2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#text2_1{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+#text2_1 span{
+    font-size: 18px;
+    color: hsl(178, 100%, 50%);
+} 
+
+#text2_2{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+
+#text3{
+    margin-top: 20px;
+    border-top: 4px #20324A solid;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+#text3 img{
+    width: 30px;
+    height: 30px;
+}
+
+#text3 div{
+    width: 30px;
+    height: 30px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+}
+
+
+#text3_1{
+    margin-left: 10px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+#text3_2{
+    margin-left: 5px;
+    font-size: 18px;
+    color: white;
+}
