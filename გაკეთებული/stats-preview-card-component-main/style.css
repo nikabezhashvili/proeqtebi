@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0C1B;
+    color: white;
+}
+
+#par{
+    display: flex;
+    width: 1300px;
+    height: 515px;
+    background-color: #1C1938;
+    border-radius: 8px;
+}
+
+/* all text */
+
+#main{
+    padding: 80px;
+    width: 650px;
+    height: 500px;
+
+}
+
+#text{
+    font-family: Inter;
+}
+
+/* h2 */
+
+#text h2{
+    font-size: 2.75rem;
+    width: 480px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#text h2 b{
+    font-weight: 700;
+    color: #A865D7;
+}
+
+#text h2 i{
+    margin-left: 2.5px;
+}
+
+/* p */
+#text p{
+    font-weight: 400;
+    width: 400px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #A7A5BD;
+    margin-bottom: 75px;
+}
+
+/* bottom text */
+
+#mini_text{
+    display: flex;
+    gap: 75px;
+}
+
+#mini_text h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#mini_text p{
+    font-family: Lexend Deca;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #76748A;
+    letter-spacing: 1px;
+}
+
+
+/* img */
+
+#img{
+    width: 650px;
+    height: 515px;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 8px 8px 0;
+}
+
+#imgcool{
+    height: 100%;
+    background-color: #4e1b6ca7;
+}
