@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -7,121 +6,106 @@
 }
 
 body{
-    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
     font-family: Outfit;
+    overflow: hidden;
 }
 
-/* parent */
+
+/* par */
+
 #par{
+    height: 580px;
     width: 350px;
-    height: 590px;
-    background-color: hsl(216, 50%, 16%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: hsl(216, 50%, 16%);
     padding: 25px;
-    border-radius: 16px;
-
+    border-radius: 15px;
 }
-
-/* img */
-
-#img img{
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-}
-
-#img_2 div{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 17px white solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#img_2 div img{
-    width: 30px;
-    height: 30px;
-    border: 1px solid white;
-}
-
-.im{
-    width: 20px;
-    height: 20px;
-}
-
-/* text */
 
 p{
     font-size: 18px;
 }
+/* img */
+#img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+#img{
+    height: 300px;
+    width: 300px;
+}
+
+#d2 img{
+    width: 30px;
+    height: 30px;
+}
+#d2 div{
+    border: 16px solid white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* text */
 
 #text h2{
     color: white;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
+    margin-top: 25px;
     margin-bottom: 15px;
-    margin-top: 20px;
 }
 
-#text #p{
-    color: hsla(215, 52%, 70%, 0.6);
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.4;
-    width: 300px;
+#p{
+    color: hsla(215, 52%, 70%, 0.7);
     margin-bottom: 25px;
 }
 
 #d1{
     display: flex;
     justify-content: space-between;
-    width: 300px;
     margin-bottom: 20px;
 }
-
 #d1 div{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
 }
-
-#left p{
+#d1 #left p{
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
     font-size: 1rem;
-    font-weight: 400;
+}
+#d1 #right p{
+    color: hsla(215, 52%, 70%, 0.7);
+    font-size: 1rem;
 }
 
-#right p{
-    color: hsla(215, 52%, 70%, 0.6);
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-
-
-#img_2{
+#d2{
+    height: 50px;
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     border-top: 1px solid hsl(215, 32%, 27%);
-    height: 70px;
 }
 
-#img_2 p{
+#d2 p{
     color: hsla(215, 52%, 70%, 0.7);
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
-#img_2 b{
-    font-weight: 400;
+#d2 p b{
     color: white;
+    font-weight: 400;
 }
