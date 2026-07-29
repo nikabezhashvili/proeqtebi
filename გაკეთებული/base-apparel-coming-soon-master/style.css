@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    font-family: Josefin Sans;
+    background-color: #FFF7F8;
+}
+
+
+#par{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#img{
+    background-image: url(./images/hero-desktop.jpg);
+    width: 610px;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 140px;
+}
+
+#im1{
+    margin-bottom: 120px;
+}
+
+h1{
+    font-size: 5rem;
+    width: 350px;
+    letter-spacing: 20px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+h1 b{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+p{
+    color: hsl(0, 36%, 70%);
+    font-size: 1.25rem;
+    width: 550px;
+    margin-bottom: 50px;
+}
+
+input{
+    width: 550px;
+    height: 75px;
+    border-radius: 50px;
+    border: 1px hsla(0, 6%, 24%, 0.35) solid;
+    padding-left: 50px;
+
+}
+input::placeholder{
+    font-size: 1.2rem;
+    color: hsla(0, 36%, 70%, 0.5);
+    font-family: Josefin Sans;
+}
+button{
+    height: 75px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F19898;
+    position: relative;
+    right: 150px;
+    cursor: pointer;
+}
+
+
+#d1{
+    display: flex;
+    justify-content: center;
+}
