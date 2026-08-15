@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Libre Franklin;
+}
+
+#par{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* logo */
+
+#logo{
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+#logo img{
+    width: 75px;
+}
+
+/* text */
+
+#text{
+    text-align: center
+}
+
+#text h2{
+    font-size: 3rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+#text h2 b{
+    font-weight: bold;
+    color: black;
+}
+
+#text p{
+    font-size: 1.25rem;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* inp */
+#inp{
+    display: flex;
+    gap: 15px;
+}
+
+#inp input{
+    width: 425px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px hsla(223, 100%, 88%, 0.5) solid;
+}
+#inp input::placeholder{
+    padding-left: 20px;
+    font-size: 1rem;
+    word-spacing: 3px;
+    color: hsla(0, 0%, 59%, 0.6);
+}
+
+#inp button{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+/* img */
+#img img{
+    width: 650px;
+    margin-top: 75px;
+}
+
+/* fti */
+
+#fti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+#fti #fti1,#fti2,#fti3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid hsla(0, 0%, 59%, 0.5);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* cop */
+#cop p{
+    color: hsla(0, 0%, 59%, 0.8);
+}
